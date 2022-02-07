@@ -3,9 +3,6 @@ from colorama import Fore,Back,Style
 from colorama import init
 
 
-
-
-
 client = mongodb('mongodb://localhost:27017/')
 my_database = client['todos']
 my_collection = my_database['todo']
